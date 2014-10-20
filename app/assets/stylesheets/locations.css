@@ -1,0 +1,33 @@
+body {
+	background-color: #FCFCFC;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 30em;
+
+}
+
+#panel {
+	width: 100%;
+	height: 2em;
+	background-color: #fff;
+	padding: 1em;
+}
+
+#address {
+	margin-left: 2em;
+}
+
+#logo {
+	height: 100%;
+}
+
+ul {
+	color: black;
+	font-family: Georgia;
+	font-size: 1.4em;
+	text-align: center;
+	list-style-type: none;
+}
+

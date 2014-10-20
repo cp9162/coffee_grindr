@@ -1,28 +1,41 @@
-== README
+Coffee Grindr
+---------------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app has no dependicies bundle install.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is just Javascript with a little bit of css (put on rails for good measure... see Side Note below)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Install
+---------
+Fork
+rails s
+
+
+
+Process
+--------
+
+1. Research Google Maps with js
+2. Added map to page using google maps api docs
+3. Use global array to access markers to display in list
+4. Debugged
+5. CSS and search form edits
+
+
+MVP User Stories
+-----------------
+
+-User can search with address for coffee shop
+-User sees 10 coffee shops in there area on a map
+-User sees a list with the address and name of coffee shop
+
+
+
+Side Note
+-----------
+I appologize for any bugs as this was push to finish and not my initial project... wanted to use gem geocoder with the gem google places and google maps 4 rails gem but they were not working out for the limited time I had. Sorry for any bugs please excuse the dust. If you wish to see where I was headed with my initial project please go to https://github.com/cp9162/coffee_findr. Still working on it but wanted to make sure I had something b4 the cut off time.
+
+Enjoy the coffee.
+
+-Chris
