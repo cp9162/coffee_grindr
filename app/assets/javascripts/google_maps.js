@@ -78,8 +78,8 @@
     listElement.setAttribute("id", "theList");
     listContainer.appendChild(listElement);
     for(var i = 0; i < 10; i++){
-      var listItem = document.createElement("BUTTON");
-      listItem.innerHTML = (i+1)+". "+listNames[i].name + ": " + listNames[i].formatted_address;
+      var listItem = document.createElement("li");
+      listItem.innerHTML = listNames[i].name + ": " + listNames[i].formatted_address;
       listItem.addEventListener("click", function(){
         
       });
