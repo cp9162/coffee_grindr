@@ -74,7 +74,7 @@
     var listContainer = document.createElement("div");
     listContainer.setAttribute("id", "container");
     document.getElementsByTagName("body")[0].appendChild(listContainer);
-    var listElement = document.createElement("ol"); //lol freaking typo OP
+    var listElement = document.createElement("ul"); 
     listElement.setAttribute("id", "theList");
     listContainer.appendChild(listElement);
     for(var i = 0; i < 10; i++){
@@ -103,16 +103,5 @@
       infowindow.open(map, this);
     });
   }
-
-
-
-
-// function loadScript() {
-// var script = document.createElement('script');
-// script.type = 'text/javascript';
-// script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' +
-//       'callback=initialize';
-//   document.body.appendChild(script);
-// }
 
 window.onload=initialize;
